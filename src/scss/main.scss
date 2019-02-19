@@ -1,0 +1,13 @@
+body {
+    background: white;
+    display:flex;
+    justify-content: center;
+}
+
+@import 'header';
+@import 'about-section';
+@import 'intro-section';
+@import 'work-section';
+@import 'contact-section';
+@import 'footer';
+@import 'contact-form';

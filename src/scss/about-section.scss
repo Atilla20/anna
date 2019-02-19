@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Krub');
+
+.gray-panel-container{
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 800px;
+    background: linear-gradient(#e3e3e3, #fff);
+
+    h2 {
+        text-align:center;
+        font-family: 'Major Mono Display', monospace;
+        font-size: 40px;
+        color: rgba(25, 145, 196, 0.5);
+
+    }
+}
+
+.blue-box{
+    background: rgba(25,145,196,.5);
+    height:500px;
+    width:600px;
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    right:20px;
+    margin-top:180px;
+    padding: 20px;
+    
+
+    &--paragraphs {
+        font-family:'Krub', sans-serif;
+        color: rgba(0,0,0,.5);
+        letter-spacing: .25px;
+        font-size: 18px;
+    }
+}

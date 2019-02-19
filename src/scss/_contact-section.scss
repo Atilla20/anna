@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+.contact-section-container{
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(#e3e3e3, #fff);
+    width: 100vw;
+    height: 800px;
+
+
+    h2 {
+        margin-top:200px;
+        text-align: center;
+        font-family: 'Major Mono Display', cursive;
+        font-size:40px;
+        color: rgba(25, 145, 196, 0.5);
+
+    }
+}
+
+.contact-blue-square {
+    width: 600px;
+    height: 490px;
+    background: rgba(25, 145, 196, 0.5);
+    position: absolute;
+    left: 80px;
+    top: 2810px;
+    
+}

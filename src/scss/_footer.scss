@@ -1,0 +1,29 @@
+.footer-container {
+    display: flex;
+    width: 100vw;
+    height: 300px;
+}
+
+.social-media {
+    margin-top:180px;
+    margin-right: auto;
+    margin-left: auto;
+
+    a {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.github-icon{
+    width:55px;
+    height: 55px;
+
+}
+
+.instagram-icon{
+    width: 50px;
+    height: 50px;
+
+}
