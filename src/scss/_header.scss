@@ -1,0 +1,60 @@
+// @import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+// @import url('https://fonts.googleapis.com/css?family=Londrina+Shadow');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    
+}
+
+.header-centerizing {
+    width: 100vw;
+    margin:auto;
+}
+
+.header-name {
+    width: 100%;
+    margin:auto;
+    text-align:center;
+    font-family: 'Barrio', cursive;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+
+
+.navigation{
+    display:flex;
+    width:30%;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin:auto;
+
+    a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+    
+    li {
+        text-align:left;
+        font-family:'Major Mono Display', monospace;
+        font-size: 20px;
+
+    }
+
+    &--about,
+    &--contact,
+    &--work{
+
+        &:hover{
+            background:rgba(25,145,196,.5);
+           
+        }
+    }
+
+    
+}

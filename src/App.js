@@ -1,25 +1,40 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header';
+import AboutSection from './components/about-section';
+import IntroSection from './components/intro-section';
+import WorkSection from './components/work-section';
+import ContactSection from './components/contact-section';
+import Footer from './components/footer';
+import ScrollableAnchor from 'react-scrollable-anchor';
+
+
+
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      about: '#about',
+      work: '#work',
+      contact: '#contact'
+    }
+  }
+      
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <Header about= {this.state.about} work={this.state.work} contact={this.state.contact}/>
+        <IntroSection/>
+        <ScrollableAnchor id={'about'}>
+          <AboutSection/>
+        </ScrollableAnchor>
+        <ScrollableAnchor id={'work'}>
+          <WorkSection/>
+        </ScrollableAnchor>
+        <ScrollableAnchor id={'contact'}>
+          <ContactSection/>
+        </ScrollableAnchor>
+        <Footer/>                 
       </div>
     );
   }
