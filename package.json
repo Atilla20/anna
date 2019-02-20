@@ -2,7 +2,7 @@
   "name": "anna",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://atilla20.github.io/anna/",
+  "homepage": "https://Atilla20.github.io/anna/",
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
     "gh-pages": "^2.0.1",
@@ -15,8 +15,6 @@
   "scripts": {
     "start": "webpack-dev-server  --mode development",
     "build": "webpack -p",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
