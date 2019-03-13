@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Krub');
 
 .gradient-panel-container {
-    background: linear-gradient(#fff, #e3e3e3);
-    height: 800px;
+    background: #fff;
+    height: 710px;
     width: 100vw;
 }
 
 .blue-circle {
-   background: rgba(25,145,196,.5);
-   border-radius:50%;
-   width: 300px;
-   height:300px;
-   position:absolute;
-   bottom: 100px;
-   left: 80px;
-   display:flex;
-   padding:10px;
+    background: rgba(25,145,196,0.5);
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: 20px;
+    left: 160px;
+    display: flex;
+    padding: 10px;
 
    &__quote {
     margin: auto;
@@ -23,7 +23,7 @@
     font-family: 'Krub', sans-serif;
     color: rgba(0, 0, 0, 0.5);
     letter-spacing: .25px;
-    font-size: 1rem;
+    font-size: 1.4rem;
        
    }
 }

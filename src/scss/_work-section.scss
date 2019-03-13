@@ -4,15 +4,14 @@
 .work-section-container{
     display:flex;
     width: 100vw;
-    height:800px;
-    background: linear-gradient(#fff, #e3e3e3);
+    height: 710px;
+    background: linear-gradient( #fff,#e3e3e3,);
     flex-direction: column;
 
     h2 {
-        margin-top: 180px;
         text-align: center; 
         font-family: 'Major Mono Display', cursive;
-        font-size:2.5rem;
+        font-size:3.5rem;
         color: rgba(25, 145, 196, 0.5);
 
     }
@@ -22,7 +21,7 @@
 .blue-circle-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 140px;
+    margin-top: 20px;
 }
 
 .blue-circle-1,
@@ -40,7 +39,7 @@
     color: rgba(0, 0, 0, 0.5);
     font-family: 'Krub', sans-serif;
     letter-spacing: 0.25px;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 

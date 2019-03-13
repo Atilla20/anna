@@ -1,32 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Krub');
+
 input[type=text],
 input[type=email],
 select,
 textarea{
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
+    padding: 8px;
+    border: 1px solid #fff;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     resize: vertical;
+    font-size: 1rem;
 }
 
 input[type=submit] {
-    background-color: #4caf50;
+    background-color: black;
     color: white;
-    padding: 12px 20px;
+    padding: 20px 30px;
     border: none;
     border-radius: 4px;
+    font-size: 1rem;
     cursor: pointer;
+    margin-top: 1rem;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
-}
+// input[type=submit]:hover {
+//     background-color: white;
+//     color: rgba(25,145,196,.5);
+// }
 
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+.label-font {
+    font-family: 'Krub', sans-serif;
+    font-size: 1.4rem;
+    // color: white;
+    letter-spacing: .25px;
 }

@@ -5,6 +5,7 @@
   "homepage": "https://Atilla20.github.io/anna/",
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
