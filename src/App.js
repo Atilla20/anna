@@ -6,8 +6,6 @@ import WorkSection from './components/work-section';
 import ContactSection from './components/contact-section';
 import Footer from './components/footer';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import './scss/main.scss';
-
 
 
 class App extends Component {
